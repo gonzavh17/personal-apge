@@ -1,0 +1,28 @@
+.works-title {
+  font-size: 90px;
+  font-family: "Bacasime Antique", serif;
+}
+
+.works-parent {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+.works-div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.works-div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+}
+
+.works-img{
+    height: 600px;
+}

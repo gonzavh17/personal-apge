@@ -1,0 +1,59 @@
+
+.contact {
+    margin: 0;
+    background-color: #000;
+  }
+
+.contact-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.contact-div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+}
+.contact-div2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.contact-div3 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.contact-div4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+
+
+.contact-title {
+  color: #fff;
+  font-size: 200px;
+  font-family: "Bacasime Antique", serif;
+}
+
+.contact-subtitle {
+  color: #fff;
+}
+
+.contact-img{
+    width: 100%;
+}
+
+.contact-img2{
+    width:  100%;
+}
+
+@media (max-width: 768px){
+  .contact-parent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-title{
+    font-size: 150px;
+  }
+}
