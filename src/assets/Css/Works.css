@@ -36,6 +36,7 @@
 
 .works-div__technolgies-container{
   display: flex;
+  flex-direction: column;
 }
 
 .works-link{
