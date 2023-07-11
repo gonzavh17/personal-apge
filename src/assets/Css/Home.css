@@ -28,6 +28,10 @@
   justify-content: space-between;
 }
 
+.home-name{
+  text-align: center;
+}
+
 .home-img {
   height: 420px;
 }
@@ -48,7 +52,8 @@
   }
 
   .home-img {
-    height: 350px;
+    height: 100%;
+    width: 100%;
   }
   
 }
@@ -81,7 +86,7 @@
   }
 
   .home-title{
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .home-img{

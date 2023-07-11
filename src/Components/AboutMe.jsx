@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <div className='about-me'>
         <div className="about-me-parent">
-            <div className="about-me-div1"><img src={Imagenes.porsche5 } alt="" className='about-me-img'/></div>
+            <div className="about-me-div1"><img src={Imagenes.ferrari } alt="" className='about-me-img'/></div>
             <div className="about-me-div2">
                 <p className='about-me-title'>About Me</p>
             </div>

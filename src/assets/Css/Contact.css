@@ -47,6 +47,12 @@
     width:  100%;
 }
 
+@media (max-width:1024px) {
+  .contact-title{
+    font-size: 150px;
+  }
+}
+
 @media (max-width: 768px){
   .contact-parent{
     display: flex;
@@ -55,5 +61,9 @@
 
   .contact-title{
     font-size: 150px;
+  }
+
+  .contact-title{
+    font-size: 100px;
   }
 }
