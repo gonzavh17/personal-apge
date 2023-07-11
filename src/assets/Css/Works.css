@@ -34,6 +34,25 @@
   margin-top: 5px;
 }
 
+.works-div__technolgies-container{
+  display: flex;
+}
+
+.works-link{
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+}
+
+.technologies-span{
+  margin: 4px;
+  font-size: 18px;
+}
+
+.works-link-container{
+  margin: 5px 0;
+}
+
 @media (max-width: 768px) {
   .works-parent{
     flex-direction: column;
